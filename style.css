@@ -511,6 +511,9 @@ section .container {
 .contact .email-form textarea {
   padding: 12px 15px;
 }
+.contact .email-form #bot-field {
+  opacity: 0;
+}
 .contact .email-form button[type='submit'] {
   background: #18d26e;
   border: 0;
@@ -518,6 +521,7 @@ section .container {
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
+
 }
 .contact .email-form button[type='submit']:hover {
   background: #15bb62;
