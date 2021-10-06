@@ -145,7 +145,10 @@
       </div>
     </div>
 
-    <form name="contact" method="POST" data-netlify="true" role="form" class="php-email-form mt-4">
+    <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+  <p class="hidden">
+    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+  </p> class="php-email-form mt-4">
       <input type="hidden" name="form-name" value="contact">
       <div class="row">
         <div class="col-md-6 form-group">
