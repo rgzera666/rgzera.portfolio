@@ -46,7 +46,7 @@ h6 {
 
 .img-fluid {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(80%);
+  filter: grayscale(90%);
 }
 
 /*--------------------------------------------------------------
@@ -521,7 +521,6 @@ section .container {
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
-
 }
 .contact .email-form button[type='submit']:hover {
   background: #15bb62;
